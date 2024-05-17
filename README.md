@@ -81,21 +81,21 @@ The saved model is stored in results/test_run.pth.
 
 As seen in the plot below, the model converges in 25 epochs as the training loss stabilizes. We can see the model maintains high accuracies on the validation sets at convergence.
  
-<img width="932/2" alt="Train, Validation (Colored and Grayscale) Accuracy Over Epochs" src="https://github.com/zelsayed/Bias-Mitigation/assets/73649965/1ca6b450-6de0-45a0-ac6e-c07eab78c7c1">
+<img width="932" alt="Train, Validation (Colored and Grayscale) Accuracy Over Epochs" src="https://github.com/zelsayed/Bias-Mitigation/assets/73649965/1ca6b450-6de0-45a0-ac6e-c07eab78c7c1">
 
 
 - **Fisher Information Proportions Over Epochs:**
 
 We see below that while the model relies more heavily on color information initially, our regularization forces it to consider image information more strongly.
 
- <img width="932/2" alt="Fisher Information Proportions Over Epochs" src="https://github.com/zelsayed/Bias-Mitigation/assets/73649965/dda55fe7-4b9c-43f6-bf93-992679f84d4d">
+ <img width="932" alt="Fisher Information Proportions Over Epochs" src="https://github.com/zelsayed/Bias-Mitigation/assets/73649965/dda55fe7-4b9c-43f6-bf93-992679f84d4d">
 
 
 - **Fisher Information Proportion by Modality in First and Last Epoch:**
 
 We can see that the model learns to maximize the functional fisher information for the modality that contributes more strongly to classification (i.e. image modality).
 
- <img width="932/2" alt="Fisher Information Proportion by Modality in First and Last Epoch" src="https://github.com/zelsayed/Bias-Mitigation/assets/73649965/7f8e2297-be2f-4aed-b4d8-90f1c6c560f8">
+ <img width="932" alt="Fisher Information Proportion by Modality in First and Last Epoch" src="https://github.com/zelsayed/Bias-Mitigation/assets/73649965/7f8e2297-be2f-4aed-b4d8-90f1c6c560f8">
 
 
 ## License
