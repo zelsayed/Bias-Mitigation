@@ -16,7 +16,7 @@ This repository contains code for training a Modified LeNet model on the Colored
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/zelsayed/Bias-Mitigation
+git clone https://github.com/zelsayed/Bias-Mitigation.git
 cd BiasMitigation
 
 ```
