@@ -57,7 +57,7 @@ When running `python main.py`, the following default arguments will be used. You
 Example usage with custom arguments:
 
 ```bash
-python main.py --gpu 1 --epochs 100 --lr 0.001
+python main.py --epochs 100 --lr 0.001
 ```
 
 ## Dataset Samples
