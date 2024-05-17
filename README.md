@@ -62,7 +62,7 @@ python main.py --epochs 100 --lr 0.001
 
 ## Dataset Samples
 In the image below, you will find samples from the training dataset (colored), the colored test dataset, and the grayscale test dataset.
-![Samples](https://github.com/SMART-Lab-NYU/BiasMitigation/assets/73649965/745224be-c4ee-49c2-b0d8-89f0991d0878)
+![samples](https://github.com/zelsayed/Bias-Mitigation/assets/73649965/8c9f0c3e-8a10-40dd-941c-da08a6a21efa)
 
 
 ## Results
